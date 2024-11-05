@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8356AEC5-B945-E3F8-C65A-A06FBB49673B" name="T_AREA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-29 20:16:37 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_area" id="B70EF279-0983-E8FA-0FDC-2ABD8B313A92">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-29 20:17:04 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="md_area" id="67AF6263-32D5-ED64-7AA8-F06A433F61C3">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 13:19:01 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="75277595-22FA-6DE9-C111-1B20537513F5">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:11:28 UTC</createdTime>
+<generatorID>CE9474C7-37B9-4C1B-76FD-B96C3D784E6E</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<referedAttribute>DADEAEE5-09DA-F69F-0FB1-BAC5D37BBC8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84B693EF-143B-D1AA-952B-272DFD77414F" name="T_AREA PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-29 20:17:16 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B70EF279-0983-E8FA-0FDC-2ABD8B313A92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

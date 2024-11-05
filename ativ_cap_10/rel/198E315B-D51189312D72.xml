@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="198E315B-0E54-5749-6F84-D51189312D72" mainViewID="B2E0CF70-F3CE-82F6-F717-B3853774812C">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-10-29 19:38:55 UTC</createdTime>
+<ownerDesignName>atividade-10-logico</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

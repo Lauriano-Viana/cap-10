@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F24119D-3DD3-E265-A66C-639ADED26F0E" name="T_PRODUCAO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>53DB8500-1572-D6A9-CD2C-D44646F025DB</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producao" id="AE7D3CFC-0BE1-E435-0C28-9B295FEE41B5">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>109A471B-B488-C18D-340D-B2FDD2CA2355</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CULTURA_id_cultura" id="A65B923F-0D4E-ABB3-B3D6-925968581F0A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>C6D3510C-3938-23C3-E1FB-6CF1AE27BF6D</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5F2BC5E-46CA-1B36-B3CE-A70EDF6CBC2D" referredColumn="19F7695F-1345-DDC1-964B-CF18B6F1E993"/>
+</associations>
+</Column>
+<Column name="T_SAFRA_id_safra" id="3FF21E4B-8F98-A0EE-1409-3D1B2696B491">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>6A65C824-5641-841F-C129-12A3016C866A</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="296338B6-AF8E-1A7E-3076-57B0C3F85A58" referredColumn="439350BF-BA34-6B16-1191-88516886E210"/>
+</associations>
+</Column>
+<Column name="T_AREA_id_area" id="2AED0441-85CA-CADD-E254-C9C3EDC55C70">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>D5560197-CE74-AA24-7B68-8E5813F647CC</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9900FC9B-F382-517D-7BC7-1BF7AAA65ADC" referredColumn="B49B81D2-8A38-2F99-FD64-37048F942AD8"/>
+</associations>
+</Column>
+<Column name="qt_producao" id="57DE96E2-9D01-BBE1-968D-767F1E0510BF">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>A2C2A39F-B170-5EA6-B0FD-7D952A9E1DF7</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C67C4541-3955-62D8-CB42-04032D06673F" name="T_PRODUCAO_PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>9C3EB13B-72E2-628C-F4FB-CB7A968450C9</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE7D3CFC-0BE1-E435-0C28-9B295FEE41B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F04F34-CF8F-A250-9F56-F4EEC37D939C" name="T_PRODUCAO_T_CULTURA_FK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>32582AB0-F881-7E4C-784C-811AC1FC4D77</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A65B923F-0D4E-ABB3-B3D6-925968581F0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA710B56-4FF7-2DE1-16D2-E52BA70810C9" name="T_PRODUCAO_T_SAFRA_FK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>FEC91ABD-5523-C299-32DE-029F028FBA77</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FF21E4B-8F98-A0EE-1409-3D1B2696B491"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBE61585-B267-F87E-60E6-F8ABE82397A6" name="T_PRODUCAO_T_AREA_FK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>7285E056-9BD7-5D2D-F293-44F69178B041</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AED0441-85CA-CADD-E254-C9C3EDC55C70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

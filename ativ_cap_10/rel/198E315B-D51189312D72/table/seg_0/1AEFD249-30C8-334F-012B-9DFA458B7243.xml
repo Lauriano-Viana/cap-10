@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AEFD249-30C8-334F-012B-9DFA458B7243" name="T_ESTADO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>2DC5E762-F0DB-886D-3318-C4960B949C65</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sg_estado" id="20F6EE6B-D361-C127-2ED7-A342E63A1B4A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>DADEAEE5-09DA-F69F-0FB1-BAC5D37BBC8B</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="FD478B9B-99B2-9B7A-1538-F1572096E4A3">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>8638F8F8-BD0E-AB84-C82D-841FD1670B4A</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_REGIAO_id_regiao" id="EE0463A6-E9FD-40E7-0287-CA9BAB545587">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>64D351E7-B1C7-F533-18C1-D77633032CAC</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EADE820-1814-A7EE-D5BF-A7FC0EBEB4CA" referredColumn="A5262156-E4B4-9E12-BBA9-7D7B71BBCD24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FF5EF8D-9D8F-9E4B-66B0-BB2FA69BF421" name="T_ESTADO_PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>678B634D-DD1A-93D0-6D31-1BEE62CE51FF</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F6EE6B-D361-C127-2ED7-A342E63A1B4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74C6F17F-4B56-0FF3-993B-AB080B2A1B83" name="T_ESTADO_T_REGIAO_FK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>3B22EA91-172B-55C0-3346-E9301D789C41</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE0463A6-E9FD-40E7-0287-CA9BAB545587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

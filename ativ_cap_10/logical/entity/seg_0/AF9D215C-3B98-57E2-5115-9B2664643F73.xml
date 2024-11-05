@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF9D215C-3B98-57E2-5115-9B2664643F73" name="T_REGIAO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 14:03:35 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_regiao" id="35DDF7EB-190A-5ACD-BE15-5B94A4B1C6C3">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 14:03:50 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_regiao" id="18F2FBDC-F227-3C1E-FE58-3AE7185D98EE">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 14:04:11 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5CA795A-4EE4-B3AD-8C05-915340E632F6" name="T_REGIAO PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 14:04:09 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35DDF7EB-190A-5ACD-BE15-5B94A4B1C6C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

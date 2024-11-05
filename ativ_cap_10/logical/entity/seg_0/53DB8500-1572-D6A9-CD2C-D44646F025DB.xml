@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53DB8500-1572-D6A9-CD2C-D44646F025DB" name="T_PRODUCAO">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 13:30:38 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producao" id="109A471B-B488-C18D-340D-B2FDD2CA2355">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 13:31:43 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="C6D3510C-3938-23C3-E1FB-6CF1AE27BF6D">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 19:59:00 UTC</createdTime>
+<generatorID>32582AB0-F881-7E4C-784C-811AC1FC4D77</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<referedAttribute>DAD805B8-187E-2E44-D560-81562B76D636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_safra" id="6A65C824-5641-841F-C129-12A3016C866A">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 14:00:45 UTC</createdTime>
+<generatorID>FEC91ABD-5523-C299-32DE-029F028FBA77</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<referedAttribute>62EA9F0F-FCF4-E1DC-79ED-5544ED622267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_area" id="D5560197-CE74-AA24-7B68-8E5813F647CC">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 14:01:35 UTC</createdTime>
+<generatorID>7285E056-9BD7-5D2D-F293-44F69178B041</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<referedAttribute>B70EF279-0983-E8FA-0FDC-2ABD8B313A92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_producao" id="A2C2A39F-B170-5EA6-B0FD-7D952A9E1DF7">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 13:37:31 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C3EB13B-72E2-628C-F4FB-CB7A968450C9" name="T_PRODUCAO_AREA_ESTADO PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-03 13:32:23 UTC</createdTime>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="198E315B-0E54-5749-6F84-D51189312D72" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>109A471B-B488-C18D-340D-B2FDD2CA2355</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BE92AEC-CDA2-1ACB-F0E6-5B548C988FA8" name="T_CULTURA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>5C264AC1-35A0-BD20-A838-FA4842D44B50</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<abbreviation>T_CULTURA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cultura" id="19F7695F-1345-DDC1-964B-CF18B6F1E993">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>DAD805B8-187E-2E44-D560-81562B76D636</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cultura" id="DC3B755C-C639-7A1C-A491-5DABE4E4DDA3">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>C27B1422-3428-7444-85A1-9EC82619A2F5</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="972029C1-4A7C-7120-9C83-8A58AAF85D72" name="T_CULTURA_PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>1DA18582-12AB-B171-E1A7-CD3A5360B99F</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19F7695F-1345-DDC1-964B-CF18B6F1E993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

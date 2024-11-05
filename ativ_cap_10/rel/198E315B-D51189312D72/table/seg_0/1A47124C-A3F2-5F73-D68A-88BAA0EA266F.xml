@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A47124C-A3F2-5F73-D68A-88BAA0EA266F" name="T_SAFRA">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>FE769711-8376-31AE-3E41-AEAFD8E20ADB</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_safra" id="439350BF-BA34-6B16-1191-88516886E210">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>62EA9F0F-FCF4-E1DC-79ED-5544ED622267</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_safra" id="A4F2E79F-B388-D338-DE4F-AA739BE56DCC">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>E6EC49E0-D648-BDC0-794B-BF015E85C156</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_safra" id="5C634732-275C-017B-6007-EC47C6C06001">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>C70E0991-3146-0C0B-6EDC-9811E8C71BD4</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_safra" id="7BAD3D6E-73E5-AB69-5FE3-64A4F422EEB6">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>2DF33552-A06F-B328-8F06-4050976D4E34</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E5DEBBE-6231-889D-FF9A-8DE3FDB543CC" name="T_SAFRA_PK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>7571D1CB-9772-937B-162F-02B6AB0DB8F4</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439350BF-BA34-6B16-1191-88516886E210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

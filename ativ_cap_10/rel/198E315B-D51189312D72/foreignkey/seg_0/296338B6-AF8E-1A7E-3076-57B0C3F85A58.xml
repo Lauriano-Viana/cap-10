@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="296338B6-AF8E-1A7E-3076-57B0C3F85A58" containerWithKeyObject="7F24119D-3DD3-E265-A66C-639ADED26F0E" localFKIndex="EA710B56-4FF7-2DE1-16D2-E52BA70810C9" name="T_PRODUCAO_T_SAFRA_FK">
+<createdBy>lauriano</createdBy>
+<createdTime>2024-11-05 20:12:22 UTC</createdTime>
+<generatorID>FEC91ABD-5523-C299-32DE-029F028FBA77</generatorID>
+<ownerDesignName>ativ_cap_10</ownerDesignName>
+<referredTableLongName>T_SAFRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A47124C-A3F2-5F73-D68A-88BAA0EA266F</referredTableID>
+<keyObject>0E5DEBBE-6231-889D-FF9A-8DE3FDB543CC</keyObject>
+<referredKeyID>0E5DEBBE-6231-889D-FF9A-8DE3FDB543CC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_safra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
